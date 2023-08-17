@@ -1,0 +1,7 @@
+__pycache__
+.ipynb_checkpoints
+.venv
+/models
+nohup.out
+modules/__pycache__
+uploaded
