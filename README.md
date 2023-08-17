@@ -8,6 +8,8 @@
 
 - [Docker](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
 
+> I started this project at [feynn labs repo](https://github.com/Adhiban1/feynn-labs/tree/main/project1) and I create this separate repo to continue this project.
+
 ![images/Flowchart2.png](images/Flowchart2.png)
 
 ## Download Repository
