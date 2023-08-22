@@ -1,3 +1,3 @@
 cd ..
 source .venv/bin/activate
-python3 app.py
+gunicorn app:app --bind localhost:5000

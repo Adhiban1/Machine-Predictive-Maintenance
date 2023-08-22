@@ -35,7 +35,7 @@ python3 modules/test.py
 
 echo ""
 echo "Opening Flask App..."
-python3 app.py
+gunicorn app:app --bind localhost:5000
 
 echo ""
 echo "Deactivating virtual environment..."

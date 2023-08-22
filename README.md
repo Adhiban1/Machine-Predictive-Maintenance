@@ -73,7 +73,7 @@ python modules/test.py
 Run `app.py` to open Web app
 
 ```
-python modules/app.py
+gunicorn app:app --bind localhost:5000
 ```
 
 # Setup
@@ -178,5 +178,5 @@ docker pull adhiban/machine-predictive-maintenance:0.0.2
 docker run -d -p 5000:5000 adhiban/machine-predictive-maintenance:0.0.2
 ```
 
-Open it in browser `http://127.0.0.1:5000/`
+Open it in browser `http://0.0.0.0:5000/`
 
