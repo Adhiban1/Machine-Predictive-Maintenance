@@ -11,5 +11,5 @@ COPY modules/model.py ./modules/model.py
 COPY static/ ./static/
 COPY app.py .
 
-CMD ["python3", "app.py"]
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:5000"]
 EXPOSE 5000
