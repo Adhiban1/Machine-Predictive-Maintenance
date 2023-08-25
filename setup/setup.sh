@@ -1,9 +1,9 @@
 echo "Git Cloning..."
-git clone --depth 1 https://github.com/Adhiban1/feynn-labs.git
+git clone --depth 1 --branch django https://github.com/Adhiban1/Machine-Predictive-Maintenance.git
 
 echo ""
 echo "cd feynn-labs/project1..."
-cd feynn-labs/project1
+cd Machine-Predictive-Maintenance
 
 echo ""
 echo "Making run.sh as executable"
@@ -27,15 +27,15 @@ pip install -r requirements.txt
 
 echo ""
 echo "Traing the model..."
-python3 modules/train.py
+python myapp/modules/train.py
 
 echo ""
 echo "Testing the model..."
-python3 modules/test.py
+python myapp/modules/test.py
 
 echo ""
-echo "Opening Flask App..."
-gunicorn app:app --bind localhost:5000
+echo "Opening Django App..."
+python manage.py runserver 5000
 
 echo ""
 echo "Deactivating virtual environment..."
