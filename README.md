@@ -169,14 +169,15 @@ Here `failure_type`, `is_failure` columns are added in `output.csv`
 ## Docker pull
 
 ```
-docker pull adhiban/machine-predictive-maintenance:0.0.2
+docker pull adhiban/machine-predictive-maintenance:0.0.3
 ```
 
 ## Docker run
 
 ```
-docker run -d -p 5000:5000 adhiban/machine-predictive-maintenance:0.0.2
+docker run -d -p 5000:5000 adhiban/machine-predictive-maintenance:0.0.3
 ```
 
-Open it in browser `http://0.0.0.0:5000/`
+Open it in browser `http://127.0.0.1:5000/`
 
+*This Django project is in Debug=True mode*
