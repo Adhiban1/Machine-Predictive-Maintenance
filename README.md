@@ -19,13 +19,13 @@ Predictive maintenance (PdM) is a maintenance strategy that uses data analysis t
 ## Download Repository
 
 ```
-git clone --depth 1 https://github.com/Adhiban1/feynn-labs.git
+git clone --depth 1 https://github.com/Adhiban1/Machine-Predictive-Maintenance.git
 ```
 
 ## Change directory
 
 ```
-cd feynn-labs/project1
+cd Machine-Predictive-Maintenance
 ```
 
 ## Create virtual environment
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 Run `train.py` this will train the model and save the models into `models` folder
 
 ```
-python modules/train.py
+python myapp/modules/train.py
 ```
 
 ## Test
@@ -65,15 +65,15 @@ python modules/train.py
 Run `test.py` to verify saved models work well
 
 ```
-python modules/test.py
+python myapp/modules/test.py
 ```
 
 ## App
 
-Run `app.py` to open Web app
+Run web app
 
 ```
-gunicorn app:app --bind localhost:5000
+python manage.py runserver 5000
 ```
 
 # Setup

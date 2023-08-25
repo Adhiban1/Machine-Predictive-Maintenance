@@ -1,5 +1,5 @@
 echo "Git Cloning..."
-git clone --depth 1 --branch django https://github.com/Adhiban1/Machine-Predictive-Maintenance.git
+git clone --depth 1 https://github.com/Adhiban1/Machine-Predictive-Maintenance.git
 
 echo ""
 echo "cd feynn-labs/project1..."
