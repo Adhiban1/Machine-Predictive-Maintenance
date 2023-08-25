@@ -1,0 +1,38 @@
+body {
+    font-size: 120%;
+    background-color: black;
+    color: white;
+    background-size: cover;
+}
+
+input {
+    font-size: 100%;
+}
+
+#main_div {
+    background-color: black;
+    width: 600px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.btn {
+    font-size: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(43, 183, 226);
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}

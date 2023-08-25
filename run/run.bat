@@ -1,3 +1,3 @@
 cd ..
 call .venv\Scripts\activate
-gunicorn app:app --bind localhost:5000
+python manage.py runserver 5000

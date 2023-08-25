@@ -1,5 +1,4 @@
 pandas 
 scikit-learn 
-flask
+django
 imblearn
-gunicorn

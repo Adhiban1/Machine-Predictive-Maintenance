@@ -1,52 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <style>
-        body {
-            font-size: 120%;
-            background-color: black;
-            color: white;
-            background-size: cover;
-        }
-
-        input {
-            font-size: 100%;
-        }
-
-        #main_div {
-            background-color: black;
-            width: 600px;
-            padding: 50px;
-            border-radius: 50px;
-        }
-
-        .btn {
-            font-size: 100%;
-            padding: 10px;
-            border-radius: 10px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            background-color: rgb(43, 183, 226);
-        }
-
-        input::file-selector-button {
-            font-weight: bold;
-            color: dodgerblue;
-            padding: 0.5em;
-            border: thin solid grey;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="static/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Predictive Maintenance</title>
 </head>
-
 <body>
     <button onclick="theme()" id="theme" class="btn" style="width: 150px; border: none;">Dark mode</button>
     <center>
@@ -64,35 +23,12 @@
                 </ul>
             </div>
             <form action="/" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
                 <input type="file" name="file" id="file" class="btn">
                 <input type="submit" id="submit" class="btn">
             </form>
             <div />
     </center>
-    <script>
-        let mode = 'dark';
-        let dark_image = '1_OOWSoWHeQ5kyJ4N0P2ptNA.png';
-        let light_image = '487138.jpg';
-        let theme_button = document.getElementById('theme');
-        let main_div = document.getElementById('main_div');
-        document.body.style.backgroundImage = `url('static/${dark_image}')`;
-        function theme() {
-            console.log('theme()');
-            if (mode == 'dark') {
-                document.body.style.color = 'black';
-                mode = 'light';
-                theme_button.innerText = 'Light Mode';
-                main_div.style.backgroundColor = 'white'
-                document.body.style.backgroundImage = `url('static/${light_image}')`;
-            } else {
-                document.body.style.color = 'white';
-                mode = 'dark';
-                theme_button.innerText = 'Dark Mode';
-                main_div.style.backgroundColor = 'black'
-                document.body.style.backgroundImage = `url('static/${dark_image}')`;
-            }
-        }
-    </script>
+    <script src="static/index.js"></script>
 </body>
-
 </html>
