@@ -1,12 +1,18 @@
 # Machine Predictive Maintenance for Industrial Machines
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django)
+
 ## [Feynn Labs](https://www.linkedin.com/company/feynn-labs/?originalSubdomain=in) [Internship](https://feynnlabs.com/internships/) Project1
 
 - EDA and Machine Learning: [Jupyter Notebook](main.ipynb) 
 
 - [Kaggle Dataset](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 
-- [Docker](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
+- [Docker](https://hub.docker.com/r/adhiban/machine-predictive-maintenance) 
+
+![Docker Pulls](https://img.shields.io/docker/pulls/adhiban/machine-predictive-maintenance) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/adhiban/machine-predictive-maintenance) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/adhiban/machine-predictive-maintenance)
+
+
 
 > I started this project at [feynn labs repo](https://github.com/Adhiban1/feynn-labs/tree/main/project1) and I create this separate repo to continue this project.
 
@@ -163,6 +169,8 @@ Here `failure_type`, `is_failure` columns are added in `output.csv`
 > I give the same training dataset to the Flask app to check whether it predicts correct or not. Thats why `Target`, `Failure Type` and other columns are displayed in the terminal output.
 
 # Docker
+
+![Docker Pulls](https://img.shields.io/docker/pulls/adhiban/machine-predictive-maintenance) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/adhiban/machine-predictive-maintenance) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/adhiban/machine-predictive-maintenance)
 
 [Docker image](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
 
