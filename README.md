@@ -1,14 +1,21 @@
 # Machine Predictive Maintenance for Industrial Machines
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-blue?style=for-the-badge&logo=python&logoColor=ffdd54)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## [Feynn Labs](https://www.linkedin.com/company/feynn-labs/?originalSubdomain=in) [Internship](https://feynnlabs.com/internships/) Project1
 
-- EDA and Machine Learning: [Jupyter Notebook](main.ipynb) 
+[![EDA and Machine Learning](https://img.shields.io/badge/Jupyter_Notebook-link-blue?style=for-the-badge&logo=jupyter)](main.ipynb)
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle_Dataset-link-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 
-- [Docker](https://hub.docker.com/r/adhiban/machine-predictive-maintenance) 
+[![Docker image](https://img.shields.io/badge/Docker_image-Link-blue?style=for-the-badge&logo=docker&logoColor=%230db7ed.svg)](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/adhiban/machine-predictive-maintenance) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/adhiban/machine-predictive-maintenance) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/adhiban/machine-predictive-maintenance)
 
@@ -172,7 +179,7 @@ Here `failure_type`, `is_failure` columns are added in `output.csv`
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/adhiban/machine-predictive-maintenance) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/adhiban/machine-predictive-maintenance) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/adhiban/machine-predictive-maintenance)
 
-[Docker image](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
+[![Docker image](https://img.shields.io/badge/Docker_image-Link-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=%230db7ed.svg)](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
 
 ## Docker pull
 
